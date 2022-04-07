@@ -1,0 +1,90 @@
+@charset "utf-08";
+
+body {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 2em;
+    font-family: 'BIZ UDMincho', serif;
+    /* background-color: #6495ed; */
+}
+
+.logo {
+    width: 7em;
+    height: 80px;
+}
+
+.navegador {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.8em;
+    font-family: 'BIZ UDMincho', serif;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+.img1 {
+    float: none;
+}
+
+figure {
+    width: 250px;
+    padding: 5px;
+    border: 2px solid #000;
+}
+
+figcaption {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.img2 {
+    float: left;
+}
+
+.container-img {
+    border: 1px solid #000;
+    width: 100%;
+    float: left;
+}
+
+.img3 {
+    float: right;
+}
+
+.img4{
+    float: left;
+}
+
+.tentativa{
+    clear: none;
+}
+
+.img5{
+    float: right;
+}
+
+.lista-lancamento{
+   font-size: 1.2em;
+}
+
+footer{
+    font-size: 1.3em;
+    font-family: 'Akaya Kanadaka', cursive;
+}
