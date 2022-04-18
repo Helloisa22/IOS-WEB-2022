@@ -13,5 +13,9 @@ body {
     height: 100vh;
     background-color:burlywood;
     display: grid;
+    grid-template-columns: 100px 100px 100px; /*Pode ser utilizado o repeat*/
+    grid-template-rows: 100px 100px 100px;
+    justify-items: center;
+    
 }
 
