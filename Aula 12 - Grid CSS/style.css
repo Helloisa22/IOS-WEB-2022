@@ -12,7 +12,7 @@ body{
     grid-template-columns: 100px 100px;
     grid-template-rows: 100px 100px 100px;
     /* grid-template: "primeiro primeiro primeiro" 25px "segundo segundo segundo" 25% / auto 50px auto; */
-    /* align-content: space-evenly; */
+    /* align-content: center; */
     /* justify-content: center; */
     /* place-content: center; */
     /* place-items: center; */
