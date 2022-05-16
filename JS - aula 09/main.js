@@ -51,3 +51,27 @@ const tarefas = [
 // console.log(mapText);
 
 // Método filter()
+// const idades = [32, 33, 16, 40]
+
+// let filtroIdade = idades.filter((idade) =>{
+//     return idade >= 18;
+// })
+
+// console.log(filtroIdade);
+
+// const filtoCompletas = tarefas.filter((item) => {
+//     return item.isCompleted === true;
+// });
+// console.log(filtoCompletas);
+
+// Método find()
+const meuArray = [
+    { nome: 'apples', quantidade: 2 },
+    { nome: 'bananas', quantidade: 0 },
+    { nome: 'cerejas', quantidade: 5 },
+];
+console.log(
+    meuArray.find((fruta) => {
+        return fruta.nome === 'cerejas';
+    })
+);
