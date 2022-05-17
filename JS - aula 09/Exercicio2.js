@@ -46,11 +46,11 @@ const alunos = [
 // console.log(teste);
 
 
-// Retorne apenas o alunos do segundo ano
+// Retorne apenas os alunos do segundo ano
 
 
 
-// Faça somente a soma de todas as notas dos alunos do segundoa ano e retorne a media informando se os alunos ficaram abaixo da media que é acima de 7
+// Faça a soma de todas as notas dos alunos e retorne a media informando se os alunos ficaram acima da media que é 7
 function media(){
     var valorInicial = 0;
     var defineMedia = 0;
