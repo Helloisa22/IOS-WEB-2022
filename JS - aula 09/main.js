@@ -59,19 +59,19 @@ const tarefas = [
 
 // console.log(filtroIdade);
 
-// const filtoCompletas = tarefas.filter((item) => {
-//     return item.isCompleted === true;
-// });
-// console.log(filtoCompletas);
+const filtoCompletas = tarefas.filter((item) => {
+    return item.isCompleted === true;
+});
+console.log(filtoCompletas);
 
 // Método find()
-const meuArray = [
-    { nome: 'apples', quantidade: 2 },
-    { nome: 'bananas', quantidade: 0 },
-    { nome: 'cerejas', quantidade: 5 },
-];
-console.log(
-    meuArray.find((fruta) => {
-        return fruta.nome === 'cerejas';
-    })
-);
+// const meuArray = [
+//     { nome: 'apples', quantidade: 2 },
+//     { nome: 'bananas', quantidade: 0 },
+//     { nome: 'cerejas', quantidade: 5 },
+// ];
+// console.log(
+//     meuArray.find((fruta) => {
+//         return fruta.nome === 'cerejas';
+//     })
+// );
